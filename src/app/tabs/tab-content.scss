@@ -1,0 +1,34 @@
+.tab-content-container{
+  width: 100%;
+  height: calc(100% - 42px);
+  overflow: hidden;
+
+  .tab-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    textarea {
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      box-sizing: border-box;
+      resize: none;
+    }
+  }
+
+}
+
+.chrome-tab-background {
+  svg {
+    display: none;
+  }
+}
+.chrome-tabs .chrome-tab[active] {
+  border-bottom: 1px solid #8f98a1;
+}
+.chrome-tabs {
+  .chrome-tab {
+    top: -2px;
+  }
+}
